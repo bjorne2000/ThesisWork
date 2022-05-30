@@ -1,0 +1,23 @@
+.redGrid{
+    background-color: red;
+    
+    display: flex;
+    
+    
+}
+
+.blueGrid{
+    background-color: rgb(0, 183, 255);
+    font-size: larger;
+    justify-content: center;
+    display: flex;
+    
+
+}
+
+.yellowGrid{
+    background-color: rgb(255, 230, 0);
+    display: flex;
+    justify-content: center;
+    
+}
