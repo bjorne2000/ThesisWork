@@ -18,7 +18,7 @@ const Layout = ({children}) => {
   return (
     <>
     <Nav>
-      <NavItem text="Hem"/>
+      <NavItem text="Hem" route="/home"/>
 
       <NavItem text="Ayurveda">
         <DropDown 
@@ -32,7 +32,7 @@ const Layout = ({children}) => {
 
       <NavItem text="Behandlingar">
         <DropDown 
-        textOne="Ayurvedisk hälsorådgivning" routeOne ="/hälsorådgivning"
+        textOne="Ayurvedisk hälsorådgivning" routeOne ="/radgivning"
         textTwo="Abhyanga" routeTwo ="Abhyanga"
         textThree="Shirodhara" routeThree="shirodhara"
         textFour="Marmabehandling" routeFour="marmabehandling"
@@ -40,9 +40,10 @@ const Layout = ({children}) => {
         />       
       </NavItem>
 
-      <NavItem text="Om mig"/>
-      <NavItem text="Kontakt"/>
-      <NavItem text="Jordning"/>
+      <NavItem text="Jordning" route="/jordning"/>
+      <NavItem text="Om mig" route="/omMig"/>
+      <NavItem text="Kontakt" route="/kontakt"/>
+  
 
       <MenuNavItem text="Menu nav item">
         <Menydropdown 

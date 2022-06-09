@@ -6,9 +6,9 @@
     width: max-content;
     transform: translateX(-10%);
     
-
+    cursor: pointer;
     border-top: 55px solid transparent;
-    
+z-index: 3;
     
 }
 
@@ -19,8 +19,8 @@
     height: 50px;
     display: flex;
     align-items: center;
-    background-color: rgb(196, 105, 168);
-   
+    background-color: rgb(211, 160, 94);
+    cursor: pointer;
     border-radius: var(--border-radius);
     color: rgb(255, 255, 255);
     padding: 1rem;

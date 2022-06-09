@@ -1,0 +1,116 @@
+.colorSideGrid{
+    background-color: rgb(255, 221, 241);
+    
+    display: flex;  
+  }
+  
+  .titleText{
+    padding-top: 2rem;
+    font-size: 3rem;
+    display: flex;
+    color: rgb(35, 37, 37);
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .bigGrid{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .redGrid{
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+  
+  }
+  
+  .paddedGrid{
+    padding-top: 5rem;
+  }
+  
+  .textGrid{
+    background-color: rgb(255, 255, 255);
+    padding-left: 30rem;
+    padding-right: 30rem;
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    color:rgb(87, 84, 84);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+  
+  .smallText{
+    background-color: rgb(255, 255, 255);
+    padding-left: 32em;
+    padding-right: 32rem;
+    padding-bottom: 4rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    color:rgb(87, 84, 84);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+    
+  }
+  
+  .blueGrid{
+    background-color: blue;
+  }
+  
+  .greenGrid{
+    background-color: green;
+  }
+  
+  .purpGrid{
+    background-color: purple;
+  }
+  
+  
+  .imageText{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .imagePlacement{
+  display: flex;
+  justify-content: center;
+  }
+  
+  
+  
+  .hrStyle{
+    border-top: 1px solid rgba(15, 5, 1, 0.705);
+    width:60%;
+  }
+  
+  .bild{
+    z-index: 1;
+    position: relative;
+  }
+  
+  
+  @media (max-width: 1300px){
+    .textGrid {
+        padding-left: 30rem;
+        padding-right: 30rem;
+    }
+    .titleText{
+        padding-left: 2rem;
+    }
+    .smallText{
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+  }
+  
+  @media (max-width: 500px){
+      .smallText{
+        padding-left: 5rem;
+        padding-right: 5rem;
+      }
+  }
+  
+    

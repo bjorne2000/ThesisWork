@@ -1,23 +1,103 @@
+.colorSideGrid{
+    background-color: rgb(255, 221, 241);
+    
+    display: flex;  
+}
+
+.titleText{
+    padding-top: 2rem;
+    
+    font-size: 1.3rem;
+    justify-content: left;
+    padding-left: 16rem;
+    display: flex;
+    color: rgb(80, 82, 83);
+
+    
+
+}
+
+.bigGrid{
+    display: flex;
+    justify-content: center;
+}
+
 .redGrid{
-    background-color: red;
     
-    display: flex;
-    
-    
-}
-
-.blueGrid{
-    background-color: rgb(0, 183, 255);
-    font-size: larger;
-    justify-content: center;
-    display: flex;
-    
-
-}
-
-.yellowGrid{
-    background-color: rgb(255, 230, 0);
     display: flex;
     justify-content: center;
+    padding-top: 4rem;
+}
+
+.textGrid{
+    background-color: rgb(255, 255, 255);
+    padding-left: 15rem;
+    padding-right: 15rem;
+
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    color:rgb(87, 84, 84);
     
 }
+
+
+.imageText{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.imagePlacement{
+    display: flex;
+    justify-content: right;
+}
+
+.hrStyle{
+    border-top: 1px solid rgba(15, 5, 1, 0.705);
+    width:60%;
+}
+
+.linkText{
+    color: blue;
+    display: flex;
+    justify-content: left;
+    font-size: 1.2rem;
+    padding-left: 40rem;
+    
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 680px){
+
+    .textGrid {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .titleText{
+        padding-left: 10rem;
+    }
+  }
+
+  
+@media (max-width: 1000px){
+
+    .linkText{
+        padding-left: 1rem;
+    }
+  }
+
+  @media (max-width: 1300px){
+
+    .textGrid{
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+  }
+
+
+
+    

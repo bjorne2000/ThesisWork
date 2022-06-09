@@ -4,8 +4,10 @@
     position: absolute;
     top:40px;
     width: max-content;
-    transform: translateX(-10%);
+    transform: translateX(-70%);
     border-top: 55px solid transparent ;
+    z-index: 2;
+
     
     
 }
@@ -17,7 +19,8 @@
     height: 50px;
     display: flex;
     align-items: center;
-    background-color: rgb(196, 105, 168);
+    cursor: pointer;
+    background-color: rgb(211, 160, 94);
     justify-content: center;
     border-radius: var(--border-radius);
     color: rgb(255, 255, 255);
@@ -25,10 +28,11 @@
     overflow: hidden;
     border-radius: var(--border-radius);
     transform: background var(--speed);
+    
 }
 
 
 .menuItem:hover{
-    background-color: rgb(78, 4, 66);
+    background-color: rgb(173, 103, 10);
     
 }
