@@ -16,7 +16,7 @@ const Layout = ({children}) => {
 
 
   return (
-    <>
+    <div className={styles.bigBoi}>
     <Nav>
       <NavItem text="Hem" route="/home"/>
 
@@ -33,26 +33,28 @@ const Layout = ({children}) => {
       <NavItem text="Behandlingar">
         <DropDown 
         textOne="Ayurvedisk hälsorådgivning" routeOne ="/radgivning"
-        textTwo="Abhyanga" routeTwo ="Abhyanga"
+        textTwo="Abhyanga" routeTwo ="abhyanga"
         textThree="Shirodhara" routeThree="shirodhara"
-        textFour="Marmabehandling" routeFour="marmabehandling"
-        textFive="Övrigt" routeFive="övrigt"
+        textFour="Marmabehandling" routeFour="marma"
+        textFive="Övrigt" routeFive="ovrigt"
         />       
       </NavItem>
 
       <NavItem text="Jordning" route="/jordning"/>
+      <NavItem text="Boka" route="/boka"/>
       <NavItem text="Om mig" route="/omMig"/>
       <NavItem text="Kontakt" route="/kontakt"/>
   
 
-      <MenuNavItem text="Menu nav item">
+      <MenuNavItem text="Xlängre text">
         <Menydropdown 
         textOne="Hem" 
         textTwo="Ayurveda" 
         textThree="Behandlingar" 
-        textFour="Om mig" 
+        textFour="Boka" 
         textFive="Kontakt" 
         textSix="Jordning"
+        textSeven="Om mig"
         />
       </MenuNavItem>
       
@@ -62,7 +64,7 @@ const Layout = ({children}) => {
     </div>
     
 
-    </>
+    </div>
   )
 }
 

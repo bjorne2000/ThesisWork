@@ -1,17 +1,20 @@
 import React, { useState } from 'react';
 import styles from '../styles/MenuNavItem.module.css'
-
+import Grid from '@mui/material/Grid';
 function NavItem(props) {
 
     const[open, setOpen] = useState(false)
   return (
     <li className={styles.menuNavItem}>
-        <a href='#' onClick={() => setOpen(!open)} >
+        <a  onClick={() => setOpen(!open)} >
           
               {props.text}            
                    
         </a>
-        <div onMouseLeave={() => setOpen(false)}>
+        
+
+       
+        <div className={styles.dumDiv} onMouseLeave={() => setOpen(false)}>
           {open && props.children}
         </div>
         

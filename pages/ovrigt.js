@@ -2,14 +2,13 @@ import React from 'react'
 import styles from '../styles/Vata.module.css'
 import Grid from '@mui/material/Grid';
 import EmptyGrid from '../components/EmptyGrid';
-import BokaButton from '../components/BokaButton';
-
-function radgivning() {
+function ovrigt() {
   return (
+    
     <Grid container>
-        <EmptyGrid propSm={4} propMd={4}/>
-        <Grid item sm={4} md={4}>
-          <h3 className={styles.titleText}>Rådgivning</h3>
+        <EmptyGrid propSm={1} propMd={4}/>
+        <Grid item sm={10} md={4}>
+          <h3 className={styles.titleText}>Övrigt</h3>
           <p className={styles.smallText}>
           consequat. Mauris congue ultricies erat in nunc id magna interdum placerat semper a odio. Sed a sem nunc. Nam ut sagittis velit, nec pretium augue. 
                     Cras mi orci, in vestibulu massa.r vel. Quisque in congue metus, ut porttitor massa.
@@ -29,11 +28,10 @@ function radgivning() {
                     Cras mi orci, in vestibulum urna semper vel. Quisque in congue metus, ut porttitor massa.
                     utpat eu. Morbi pharetra leo quis magna eleifend, vel tincidunt lacus varius. Ph urna semper vel. Quisque in congue metus, ut porttitor massa.
                     utpat eu. Morbi pharetus, ut porttitor massa.</p>
-                    <BokaButton/>
         </Grid>
-        <EmptyGrid propSm={4} propMd={4}/>
+        <EmptyGrid propSm={1} propMd={4}/>
     </Grid>
   )
 }
 
-export default radgivning
+export default ovrigt

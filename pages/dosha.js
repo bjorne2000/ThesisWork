@@ -3,16 +3,16 @@ import styles from '../styles/Vata.module.css'
 import Grid from '@mui/material/Grid';
 import EmptyGrid from '../components/EmptyGrid';
 import BokaButton from '../components/BokaButton';
-function vata() {
+function dosha() {
   return (
     <Grid container className={styles.bigGrid}>
     <EmptyGrid propMd={4} propSm={0}/>
     <Grid item md={4} sm={12} >
         <Grid container>
         <Grid item md={9}  sm={12}>
-            <h2 className={styles.titleText}>
-                Vad är Kapha?
-            </h2>
+            <h3 className={styles.titleText}>
+                Dosha 
+            </h3>
 
             <h4 className={styles.textGrid}>
                 underrubrik
@@ -59,8 +59,7 @@ function vata() {
 </Grid>
         <EmptyGrid propMd={1} propSm={0}/>
 </Grid>
-    
   )
 }
 
-export default vata
+export default dosha

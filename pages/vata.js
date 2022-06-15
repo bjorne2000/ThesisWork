@@ -1,12 +1,16 @@
 import React from 'react'
 import styles from '../styles/Vata.module.css'
 import Grid from '@mui/material/Grid';
-
+import EmptyGrid from '../components/EmptyGrid';
+import BokaButton from '../components/BokaButton';
 function vata() {
   return (
     
         <Grid container className={styles.bigGrid}>
-                <Grid item md={9}>
+            <EmptyGrid propMd={4} propSm={1}/>
+            <Grid item md={4} sm={12} >
+                <Grid container>
+                <Grid item md={9}  sm={10}>
                     <h2 className={styles.titleText}>
                         Vad är vata?
                     </h2>
@@ -43,15 +47,22 @@ function vata() {
                     rci, in vestibulum urna semper vel. Quisque in congue metus, ut porttitor massa.
                     utpat eu. Morbi pharetra leo quis magna eleifend, vel tincidunt lacus varius. 
                     </p>
-                </Grid>
-                <Grid item md={3} className={styles.redGrid}>
 
-                    <h4>
-                        kanske någon bild här eller något tips
+                    <BokaButton/>
+                </Grid>
+
+                </Grid>
+                </Grid>
+                <EmptyGrid propMd={0} propSm={1}/>
+                <Grid item md={3}  sm={12}>
+                        <h4>
+                            kanske någon bild här eller något tips
                     </h4>
 
-                </Grid>
+                    
 
+</Grid>
+                <EmptyGrid propMd={1} propSm={0}/>
         </Grid>
     
   )

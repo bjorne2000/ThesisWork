@@ -11,7 +11,7 @@ function ImageGrid(props) {
             <Link href={props.route} scroll={props.scroll}>
 
         <Grid item  md={12} sm={12} className={styles.imageText}>
-        <Image src={props.propImg} alt="skedar bild" width={250} height={250}/>
+        <Image className={styles.circleImage} src={props.propImg}  width={250} height={250}/>
         </Grid>
         </Link>
         <Grid container>

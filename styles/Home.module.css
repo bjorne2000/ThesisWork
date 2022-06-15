@@ -30,8 +30,7 @@
 
 .textGrid{
   background-color: rgb(255, 255, 255);
-  padding-left: 30rem;
-  padding-right: 30rem;
+
   padding-bottom: 4rem;
   font-size: 1.3rem;
   display: flex;
@@ -43,8 +42,7 @@
 
 .smallText{
   background-color: rgb(255, 255, 255);
-  padding-left: 37rem;
-  padding-right: 37rem;
+
   padding-bottom: 4rem;
   font-size: 1rem;
   display: flex;
@@ -54,17 +52,7 @@
   
 }
 
-.blueGrid{
-  background-color: blue;
-}
 
-.greenGrid{
-  background-color: green;
-}
-
-.purpGrid{
-  background-color: purple;
-}
 
 
 .imageText{
@@ -89,20 +77,16 @@ justify-content: center;
   position: relative;
 }
 
-
-@media (max-width: 700px){
-  .textGrid {
-      padding-left: 3rem;
-      padding-right: 3rem;
-  }
-  .titleText{
-      padding-left: 2rem;
-  }
-  .smallText{
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
+.circleImage{
+  border-radius: 50%;
 }
 
+
+
+@media (max-width: 300px){
+  .titleText {
+      font-size: large;
+  }
+}
 
   

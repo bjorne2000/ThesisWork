@@ -1,0 +1,28 @@
+
+
+
+.bokaButton{
+    display: flex;
+    width: 10rem;
+    height: 4rem;
+    background-color: rgb(201, 206, 224);
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-left:10rem;
+}
+
+
+
+@media(max-width:1300px){
+    .bokaButton{
+        margin-left:4rem;
+    }
+}
+
+@media(max-width:400px){
+    .bokaButton{
+        margin-left:0rem;
+        width: 7rem;
+        height: 4rem;
+    }
+}

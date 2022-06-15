@@ -2,13 +2,13 @@
 
 .dropdown{
     position:relative;
-    top:46px;
+    font-size: small;
+    margin-top: 2rem;
     width: max-content;
-    transform: translateX(-10%);
-    
+    transform: translateX(-50%);
+    background: rgb(211, 160, 94);
     cursor: pointer;
-    border-top: 55px solid transparent;
-z-index: 3;
+    z-index: 3;
     
 }
 
@@ -16,10 +16,10 @@ z-index: 3;
 
 
 .menuItem{
-    height: 50px;
+    height: 25px;
     display: flex;
     align-items: center;
-    background-color: rgb(211, 160, 94);
+    background: rgb(211, 160, 94);
     cursor: pointer;
     border-radius: var(--border-radius);
     color: rgb(255, 255, 255);
@@ -30,7 +30,7 @@ z-index: 3;
 }
 
 .menuItem:hover{
-    background-color: rgb(78, 4, 66);
+    background-color: rgb(173, 103, 10);
     
 }
 
@@ -38,7 +38,16 @@ z-index: 3;
     width: 100%;
 }
 
-.menuPrimaryEnter{
+
+@media (max-width: 300px){
+
+    .dropdown {
+        width:fit-content;
+        transform: translateX(-30%);
+    }
+  }
+
+/* .menuPrimaryEnter{
     position: absolute;
     transform: translateX(-110%);
 }
@@ -75,7 +84,7 @@ z-index: 3;
 .menuSecondaryExitActive{
     transform: translateX(110%);
     transition: all var(-500) ease; 
-}
+} */
 
 
 

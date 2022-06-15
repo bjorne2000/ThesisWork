@@ -8,38 +8,39 @@ import EmptyGrid from '../components/EmptyGrid'
 
 function omMig() {
   return (
-    <div>
-        <Grid container>
-          <Grid item md={12} sm={12} xs={12}>
-            <Grid container >
-              <Grid item md={12} sm={12}>
-                  <h3 className={styles.titleText}>
-                    Om mig
-                  </h3>
-              </Grid>
+    <Grid container>
+      <EmptyGrid propMd={4}/>
+              <Grid item md={4}>
+                <Grid container className={styles.redGrid}>
+                
+              
               <ImageGrid propMd="12" propSm="12" propImg="/christina.jpg" text="" route=""/>
-            </Grid>
-          </Grid>
-        </Grid>
-
-        <p className={styles.smallText}>       consequat. Mauris congue ultricies erat in nunc id magna interdum placerat semper a odio. Sed a sem nunc. Nam ut sagittis velit, nec pretium augue. 
+              <Grid item>
+              <h3 className={styles.textGrid}>Här är jag</h3>
+        <p className={styles.smallText}> consequat. Mauris congue ultricies erat in nunc id magna interdum placerat semper a odio. Sed a sem nunc. Nam ut sagittis velit, nec pretium augue. 
                     Cras mi orci, in vestibulum urna semper vel. Quisque in congue metus, ut porttitor massa.
-                    utpat eu. Morbi pharetra leo quis magna eleifend, vel tincidunt lacus varius. Ph                    consequat. Mauris congue ultricies erat in nunc id magna interdum placerat semper a odio. Sed a sem nunc. Nam ut sagittis velit, nec pretium augue. 
+                    utpat eu. Morbi pharetra leo quis magna eleifend, vel tincidunt lacus varius. Ph consequat. Mauris congue ultricies erat in nunc id magna interdum placerat semper a odio. Sed a sem nunc. Nam ut sagittis velit, nec pretium augue. 
                     Cras mi orci, in vestibulum urna semper vel. Quisque in congue metus, ut porttitor massa.
                     utpat eu. Morbi pharetra leo quis magna eleifend, vel tincidunt lacus varius. Ph</p>
 
+              </Grid>
+
+
+                </Grid>
+              </Grid>
+
+              <EmptyGrid propMd={4}/>
         <Grid container>
-        <EmptyGrid propMd="3"/>
+
         <ImageGrid propMd="3" propSm="12" propImg="/skedar.jpg" text="go mat" route="" scroll={false}/>
         <ImageGrid propMd="3" propSm="12" propImg="/butterFly.jpg" text="fjäril flyger" route="" scroll={false}/>
-        <EmptyGrid propMd="3"/>
-        <EmptyGrid propMd="3"/>
+
         <ImageGrid propMd="3" propSm="12" propImg="/skogsBild.jpg" text="skogen är bra" route="" scroll={false}/>
         <ImageGrid propMd="3" propSm="12" propImg="/staty.jpg" text="inre frid" route="" scroll={false}/>
-        <EmptyGrid propMd="3"/>
+
         </Grid>
           
-    </div>
+    </Grid>
 
   )
 }

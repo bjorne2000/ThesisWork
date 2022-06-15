@@ -1,15 +1,11 @@
-.colorSideGrid{
-    background-color: rgb(255, 221, 241);
-    
-    display: flex;  
-}
+
 
 .titleText{
     padding-top: 2rem;
     
     font-size: 1.3rem;
-    justify-content: left;
-    padding-left: 16rem;
+    justify-content: center;
+
     display: flex;
     color: rgb(80, 82, 83);
 
@@ -30,9 +26,8 @@
 }
 
 .textGrid{
-    background-color: rgb(255, 255, 255);
-    padding-left: 15rem;
-    padding-right: 15rem;
+    
+
 
     font-size: 1.2rem;
     display: flex;
@@ -41,62 +36,25 @@
     
 }
 
-
-.imageText{
-
-    display: flex;
-    justify-content: center;
-
+.blueGrid{
+    background-color: blue;
 }
 
-.imagePlacement{
-    display: flex;
-    justify-content: right;
+.greenGrid{
+    background-color: rgb(0, 243, 20);
 }
 
-.hrStyle{
-    border-top: 1px solid rgba(15, 5, 1, 0.705);
-    width:60%;
-}
+
 
 .linkText{
     color: blue;
     display: flex;
     justify-content: left;
     font-size: 1.2rem;
-    padding-left: 40rem;
+    /* padding-left: 40rem; */
     
     cursor: pointer;
 }
-
-
-
-@media (max-width: 680px){
-
-    .textGrid {
-        padding-left: 3rem;
-        padding-right: 3rem;
-    }
-    .titleText{
-        padding-left: 10rem;
-    }
-  }
-
-  
-@media (max-width: 1000px){
-
-    .linkText{
-        padding-left: 1rem;
-    }
-  }
-
-  @media (max-width: 1300px){
-
-    .textGrid{
-        padding-left: 10rem;
-        padding-right: 10rem;
-    }
-  }
 
 
 
